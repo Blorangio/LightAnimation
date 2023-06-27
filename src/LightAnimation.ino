@@ -46,10 +46,24 @@ class Button {
     }
 };
 Button b1;
+Button b2;
+Button b3;
+Button b4;
 LED l1;
+LED l2;
+LED l3;
+LED l4;
+LED l5;
 void setup() {
   b1.initialize(D0);
+  b1.initialize(D1);
+  b1.initialize(D2);
+  b1.initialize(D3);
   l1.initialize(D4);
+  l1.initialize(D5);
+  l1.initialize(D6);
+  l1.initialize(D7);
+  l1.initialize(D8);
 }
 void loop() {
   
